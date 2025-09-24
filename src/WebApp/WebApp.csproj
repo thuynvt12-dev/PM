@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Identity.EF\Identity.EF.csproj" />
+    <ProjectReference Include="..\Project.EF\Project.EF.csproj" />
+  </ItemGroup>
+</Project>

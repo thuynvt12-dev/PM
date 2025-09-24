@@ -1,0 +1,1 @@
+namespace Project.Core; public static class ProjectPermissions{public const string ProjectView="project.view";}

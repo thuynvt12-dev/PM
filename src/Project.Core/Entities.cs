@@ -1,0 +1,1 @@
+namespace Project.Core; public class Project{public Guid Id{get;set;} public string Name{get;set;}="";} public class WorkItem{public Guid Id{get;set;} public Guid ProjectId{get;set;} public string Title{get;set;}="";}

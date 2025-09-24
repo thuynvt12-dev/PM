@@ -1,0 +1,1 @@
+using Microsoft.EntityFrameworkCore; using Project.Core; namespace Project.EF; public static class ProjectModelBuilderExtensions{public static void ApplyProjectModel(this ModelBuilder b){b.Entity<Project>(e=>e.HasKey(x=>x.Id)); b.Entity<WorkItem>(e=>e.HasKey(x=>x.Id));}}
